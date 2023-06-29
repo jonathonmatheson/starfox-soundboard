@@ -1,52 +1,153 @@
 html {
+
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+
+  /*background: url('https://images.unsplash.com/photo-1494666144702-70d86c6cf884?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80') bottom center;
+
+  */
+
   background-size: cover;
+
+ 
+
 }
+
+ 
+
+h1.fox {
+
+  text-align: left;
+
+  font-weight: bold;
+
+  font-style: italic;
+
+  color: #6d6f7c;
+
+  font-family: 'Poppins', sans-serif;
+
+  padding: 20px 109px;
+
+}
+
+ 
+
+#myVideo {
+
+  position: fixed;
+
+  right: 0;
+
+  bottom: 0;
+
+  min-width: 100%;
+
+  min-height: 100%;
+
+  z-index: -1;
+
+}
+
+ 
 
 body,
+
 html {
+
   margin: 0;
+
   padding: 0;
+
   font-family: sans-serif;
+
 }
+
+ 
 
 .keys {
+
   display: flex;
+
   flex: 1;
+
   min-height: 100vh;
+
   align-items: center;
+
   justify-content: center;
+
 }
+
+ 
 
 .key {
-  border: .4rem solid black;
+
+  border: .4rem solid #b1842a;
+
   border-radius: .5rem;
+
   margin: 1rem;
+
   font-size: 1.5rem;
+
   padding: 1rem .5rem;
+
   transition: all .07s ease;
+
   width: 10rem;
+
   text-align: center;
-  color: white;
+
+  color: #b1842a;
+
   background: rgba(0, 0, 0, 0.4);
+
   text-shadow: 0 0 .5rem black;
+
+  -webkit-box-shadow: 0px 0px 11px 9px rgba(177, 132, 42, 0.8);
+
+  -moz-box-shadow: 0px 0px 11px 9px rgba(177, 132, 42, 0.8);
+
+  box-shadow: 0px 0px 11px 9px rgba(177, 132, 42, 0.8);
+
 }
+
+ 
 
 .playing {
+
   transform: scale(1.1);
+
   border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+
+  box-shadow: 0 0 1rem #ffcb00;
+
+  background: #ffcb00;
+
+  color: black;
+
 }
+
+ 
 
 kbd {
+
   display: block;
+
   font-size: 4rem;
+
 }
 
+ 
+
 .sound {
+
   font-size: 1.2rem;
+
   text-transform: uppercase;
+
   letter-spacing: .1rem;
+
   color: #ffc600;
+
 }
